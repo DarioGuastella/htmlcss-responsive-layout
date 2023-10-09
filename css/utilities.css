@@ -38,6 +38,7 @@ body {
 .w-40 {width: 40%;}
 .w-50 {width: 50%;}
 .w-60 {width: 60%;}
+.w-80 {width: 80%;}
 .w-90 {width: 90%;}
 .w-100 {width: 100%;}
 
@@ -48,8 +49,11 @@ body {
 .mt-30{margin-top: 30px;}
 
 .my-a40{margin: 40px auto;}
+.my-20{margin: 20px 0;}
 
 .mb-30{margin-bottom: 30px;}
+.mb-60{margin-bottom: 60px;}
+.mb-a40 {margin: 0 auto 40px auto;}
 
 
 .mr-20{margin-right: 20px;}
@@ -69,6 +73,7 @@ body {
 .py-20{padding: 20px 0 20px 0;}
 
 .pb-0{padding-bottom: 0;}
+.pb-30{padding-bottom: 30px;}
 .pb-50{padding-bottom: 50px;}
 .pb-100{padding-bottom: 100px;}
 

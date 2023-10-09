@@ -11,6 +11,22 @@ header {
 MAIN
 ***************************/
 
+/* TESTI */
+
+p {
+    line-height: 2em;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+i p{
+    font-weight: 300;
+}
+
+.lightblue-box h2 {
+    font-size: 19px;
+}
+
 /* BLUE SECTION */
 
 .lightblue-box {
@@ -18,14 +34,9 @@ MAIN
     background-color: #B5DDFF;
 }
 
-.lightblue-box h2 {
-    font-size: 22px;
-}
-.lightblue-box p {
-    line-height: 2em;
-    font-weight: 600;
-    font-size: 14px;
-}
+
+/* BOTTONI */
+
 
 .btn-blue {
     background-color: #0084FD;
@@ -36,11 +47,25 @@ MAIN
     justify-content: center;
     width: 90%;
 }
+
+.btn-violet {
+    background-color: #9792E4;
+    color: black;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 1em;
+}
 .fa-apple {
     margin-right: 15px;
 }
 
+/* VIOLET SECTION PLANNING */
 
+.w-80 img {
+    max-width: 100%;
+}
 /***************************
 FOOTER
 ***************************/
