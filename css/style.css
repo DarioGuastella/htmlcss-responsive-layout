@@ -1,6 +1,6 @@
 /***************************
- HEADER
- ***************************/
+HEADER
+***************************/
 
 header {
     min-height: 4rem;
@@ -8,26 +8,43 @@ header {
 }
 
 /***************************
- MAIN
- ***************************/
+MAIN
+***************************/
 
- /* BLUE SECTION */
+/* BLUE SECTION */
 
- .lightblue-box {
+.lightblue-box {
     min-height: 300px;
     background-color: #B5DDFF;
- }
+}
+
+.lightblue-box h2 {
+    font-size: 22px;
+}
+.lightblue-box p {
+    line-height: 2em;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-blue {
+    background-color: #0084FD;
+    color: white;
+    padding: 10px 4px;
+    border-radius: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    width: 90%;
+}
+.fa-apple {
+    margin-right: 15px;
+}
 
 
+/***************************
+FOOTER
+***************************/
 
- /***************************
- FOOTER
- ***************************/
-
- footer {
-   
- }
-
- footer a {
+footer a {
     color: #9792E4;
- }
+}
