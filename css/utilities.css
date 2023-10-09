@@ -23,6 +23,10 @@ body {
 .jcont-center {justify-content: center;}
 .align-icenter {align-items: center;}
 
+/* TEXT ALIGN */
+
+.centered {text-align: center;}
+
 /* LARGHEZZE */
 
 .w-10 {width: 10%;}
@@ -33,8 +37,24 @@ body {
 .w-40 {width: 40%;}
 .w-50 {width: 50%;}
 .w-60 {width: 60%;}
-.w-70 {width: 70%;}
+.w-90 {width: 90%;}
 .w-100 {width: 100%;}
+
+/* MARGINI */
+
+.m0a {margin: 0 auto;}
+
+.mt-30{margin-top: 30px;}
+
+.my-a40{margin: 40px auto;}
+
+.mb-30{margin-bottom: 30px;}
+
+
+.mr-20{margin-right: 20px;}
+
+
+.m0a {margin: 0 auto;}
 
 /* ALTEZZE */
 .h-full {height: 100%;}
@@ -50,3 +70,19 @@ body {
 .pb-100{padding-bottom: 100px;}
 
 .pr-5{padding-right: 5px;}
+
+/* COLORI DI SFONDO */
+
+.bg-violet {background-color: #9792E4;}
+.bg-white {background-color: white;}
+.bg-grey {background-color: #333333;}
+
+/* COLORI TESTO */
+
+.t-white {color: white;}
+.t-grey {color: grey;}
+.t-violet {color: #9792E4;}
+
+/* BORDER RADIUS */
+
+.r-25 {border-radius: 25px;}

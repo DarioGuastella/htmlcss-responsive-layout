@@ -6,3 +6,28 @@ header {
     min-height: 4rem;
     background-color: #0084FD;
 }
+
+/***************************
+ MAIN
+ ***************************/
+
+ /* BLUE SECTION */
+
+ .lightblue-box {
+    min-height: 300px;
+    background-color: #B5DDFF;
+ }
+
+
+
+ /***************************
+ FOOTER
+ ***************************/
+
+ footer {
+   
+ }
+
+ footer a {
+    color: #9792E4;
+ }
