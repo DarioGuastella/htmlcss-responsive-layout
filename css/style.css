@@ -83,6 +83,24 @@ h5 {
     padding-right: 15px;
 }
 
+.btn-white {
+    background-color: white;
+    color: #9792E4;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.btn-white a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+.fw-300 a {
+    color: inherit;
+}
 .fa-apple {
     margin-right: 15px;
 }
