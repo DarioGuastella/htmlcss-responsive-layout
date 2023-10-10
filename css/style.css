@@ -430,5 +430,29 @@ footer a {
         font-size: 19px;
     }
 
+    /* TESTIMONIALS */
+
+    .testimonials-container {
+        width: 60%;
+    }
+
+    .testimonial-card {
+        width: 60%;
+    }
+
+    .testimonial-quote {
+        align-self: center;
+    }
+
+    /* BENEFITS */
+
+    .benefits-container {
+        width: 60%;
+    }
+    .benefits-card {
+        margin: 0;
+        width: calc(33.3333% - 14px);
+    }
+
     
 }
