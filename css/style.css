@@ -199,5 +199,47 @@ footer a {
         width: 90%;
     }
 
+    /* TESTIMONIALS */
+
+    .testimonials-container {
+        width: 90%;
+    }
+    .testimonials-container h2 {
+        font-size: 35px;
+    }
+
+    .testimonials-container p {
+        font-size: 18px;
+    }
+
+    .testimonial-card {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .circle-image {
+        margin: 10px 0;
+    }
+    
+    .testimonial-card p {
+        font-size: 18px;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .testimonial-card h4 {
+        text-align: left;
+        margin-left: 30px;
+    }
+    
+    .testimonial-quote {
+        max-width: 70%;
+    }
+
+    /* BENEFITS */
+
+    
+
 
 }
