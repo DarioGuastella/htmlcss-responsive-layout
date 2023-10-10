@@ -354,6 +354,8 @@ footer a {
 
 @media screen and (min-width:992px) {
 
+    /* HEADER */
+
     .header-container {
         width: 60%;
     }
@@ -367,6 +369,8 @@ footer a {
     }
 
     .btn-start {margin-right: 16px;}
+
+    /* DEMO */
 
     .cards-container {
         width: 60%;
@@ -392,6 +396,38 @@ footer a {
     .right-demo img{
         margin-top: 53px;
 
+    }
+
+    /* PLANNING */
+
+    .planning-container {
+        width: 50%;
+        flex-direction: row;
+    }
+    
+
+    .planning-container-left {
+        width: 50%;
+        margin: 0;
+    }
+
+    .planning-container-left h2{
+        font-size: 30px;
+    }
+    .planning-container-left p{
+        padding-bottom: 50px;
+    }
+
+    .planning-container-right {
+        width: 50%;
+        margin: 0;
+        scale: 0.7;
+        position: relative;
+        top: 60px;
+    }
+
+    .planning-container-right p{
+        font-size: 19px;
     }
 
     
