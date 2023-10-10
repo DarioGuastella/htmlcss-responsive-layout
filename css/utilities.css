@@ -67,7 +67,6 @@ body {
 
 /* ALTEZZE */
 .h-full {height: 100%;}
-.h-64 {height: 64px;}
 
 /* PADDING */
 
@@ -88,6 +87,7 @@ body {
 .bg-violet {background-color: #9792E4;}
 .bg-white {background-color: white;}
 .bg-grey {background-color: #333333;}
+.bg-lightblue {background-color: #B5DDFF;}
 
 /* COLORI TESTO */
 
