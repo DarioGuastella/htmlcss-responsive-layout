@@ -152,9 +152,13 @@ footer a {
 
 @media screen and (min-width: 768px) {
 
+    /* HEADER */
+
     .header-container {
         width: 90%;
     }
+
+    /* DEMO CARDS */
     .big-card {
         width: calc(66.6666% - 16px);
         margin-right: 16px;
@@ -177,7 +181,23 @@ footer a {
         width: 90%;
     }
     
-    .w-80 img {
+    .cards-container img {
         max-width: 76%;
     }
+
+    /* DEMO CARDS END */
+
+    /* PLANNING */
+
+    .planning-container img {
+        width:100%
+    }
+    .planning-container h2 {
+        font-size: 50px;
+    }
+    .planning-container {
+        width: 90%;
+    }
+
+
 }
