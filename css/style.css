@@ -85,7 +85,7 @@ h5 {
 .btn-white {
     background-color: white;
     color: #9792E4;
-    width: 80%;
+    width: 222px;
     margin: 20px auto;
     padding: 15px;
     border-radius: 25px;
@@ -297,6 +297,39 @@ footer a {
     .aboutus-profile h2 {
         max-width: 190px;
     }
+
+    /* GET STARTED */
+
+    .getstarted-container h5 {
+        color: #d5d4f4;
+        font-size: 18px;
+    }
+    
+    .getstarted-container h2 {
+        font-size: 40px;
+    }
+
+    .getstarted-container .big-title {
+        font-size: 80px;
+    }
+
+    .getstarted-container p {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .btn-white {
+        padding: 30px;
+        border-radius: 50px;
+    }
+
+    /* FOOTER */
+
+    .footer-text {
+        width: 60%;
+    }
+
+
 
 
 }
