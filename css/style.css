@@ -7,6 +7,21 @@ header {
     background-color: #0084FD;
 }
 
+.right a {
+    text-decoration: none;
+    display: none;
+}
+
+.btn-start {
+    background-color: white;
+}
+.btn-start {
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
 /***************************
 MAIN
 ***************************/
@@ -155,7 +170,7 @@ footer a {
 
 /*************************** RESPONSIVE ***************************/
 
-/* TABLET */
+/*********************** TABLET */
 
 @media screen and (min-width: 768px) {
 
@@ -163,6 +178,10 @@ footer a {
 
     .header-container {
         width: 90%;
+    }
+
+    .right i {
+        padding-right: 16px;
     }
 
     /* DEMO CARDS */
@@ -329,7 +348,51 @@ footer a {
         width: 60%;
     }
 
+}
 
+/*********************** DESKTOP */
 
+@media screen and (min-width:992px) {
 
+    .header-container {
+        width: 60%;
+    }
+
+    .right a {
+        display: inline-block;
+    }
+    
+    .right i {
+        display: none;
+    }
+
+    .btn-start {margin-right: 16px;}
+
+    .cards-container {
+        width: 60%;
+    }
+
+    .big-card {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .left-demo {
+        width: 50%;
+    }
+
+    .left-demo p {
+        
+    }
+
+    .right-demo {
+        width: 50%;
+    }
+
+    .right-demo img{
+        margin-top: 53px;
+
+    }
+
+    
 }
