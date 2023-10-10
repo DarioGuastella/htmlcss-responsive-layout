@@ -453,6 +453,25 @@ footer a {
         margin: 0;
         width: calc(33.3333% - 14px);
     }
+    
+    /* ABOUT US */
+
+    .aboutus-container {
+        width: 60%;
+        padding: 20px;
+    }
+
+    /* GET STARTED */
+
+    .getstarted-container p {
+        width: 30%;
+    }
+
+    /* FOOTER */
+
+    .footer-text {
+        width: 30%;
+    }
 
     
 }
